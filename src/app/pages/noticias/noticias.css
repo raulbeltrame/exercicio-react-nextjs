@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: #f8fbf8;
+    color: rgb(0, 0, 5);
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+#titulo-pagina{
+    font-size: 24px;
+}
+
+#container-noticias::-webkit-scrollbar {
+    width: 6px;
+    padding-right: 10px;
+}
+  
+#container-noticias::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 5px;
+}
+
+#div-top-noticias{
+    background-color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width:101%;
+    font-family: "Varela Round", sans-serif;
+    color: rgb(41, 1, 126);
+}
+
+#input-localizar{
+    border:1px solid rgb(126, 125, 125);
+    border-radius:6px;
+}
+
+#card-noticia{
+    width:47%;
+    margin-left:1.5%;
+    margin-right:1%;
+    margin-top: 2%;
+    padding-bottom:1%;
+    box-shadow: 0px 3px 5px rgba(23, 1, 61, 0.2);
+}
+
+#card-noticia:hover{
+    transform: scale(1.04);
+}
+
+#h2-noticia{
+    font-size: 19px;
+    color: rgb(2, 2, 122);
+    margin-top:3%;
+}
+
+#intro-noticia{
+    margin-top:3%;
+    font-size:15px;
+    color:rgb(109, 109, 109);
+    margin-bottom:-30%;
+}
+
+#pill-data{
+    background-color: rgb(112, 112, 112);
+    color:#f8fbf8;
+    padding-left:1%;
+    padding-right:1%;
+    padding-top:0.2%;
+    padding-bottom: 0.2%;
+    border-radius:10px;
+    font-size:13px;
+    margin-left: 1%;
+}
+
+#img-noticia{
+    margin-top:3%;
+    height:45%;
+    object-fit:cover;
+}
+
+@media(max-width:600px){
+
+    #input-localizar{
+        display: none;
+    }
+
+    #card-noticia{
+        width:98%;
+        margin-left:1.2%;
+        margin-right:1%;
+        margin-top: 1%;
+        margin-bottom:6%;
+    }
+
+    #intro-noticia{
+        margin-bottom:0%;
+    }
+}
