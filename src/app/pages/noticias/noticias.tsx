@@ -14,7 +14,7 @@ function Noticias() {
 
 
     const { isLoading, isError, data } = useQuery('noticias', async () => {
-        const response = await fetch('http://servicodados.ibge.gov.br/api/v3/noticias/');
+        const response = await fetch('https://servicodados.ibge.gov.br/api/v3/noticias/');
         if (!response.ok) {
             sweetalert.fire({
                 icon: "error",
